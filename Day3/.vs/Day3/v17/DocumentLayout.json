@@ -3,60 +3,44 @@
   "WorkspaceRootPath": "E:\\Asp.net\\aspnet_daily_practice\\Day3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{64AADA1C-0098-4A86-95D7-138326920EED}|Day3.csproj|e:\\asp.net\\aspnet_daily_practice\\day3\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64AADA1C-0098-4A86-95D7-138326920EED}|Day3.csproj|solutionrelative:controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{64AADA1C-0098-4A86-95D7-138326920EED}|Day3.csproj|e:\\asp.net\\aspnet_daily_practice\\day3\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{64AADA1C-0098-4A86-95D7-138326920EED}|Day3.csproj|solutionrelative:views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{64AADA1C-0098-4A86-95D7-138326920EED}|Day3.csproj|e:\\asp.net\\aspnet_daily_practice\\day3\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{64AADA1C-0098-4A86-95D7-138326920EED}|Day3.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{64AADA1C-0098-4A86-95D7-138326920EED}|Day3.csproj|e:\\asp.net\\aspnet_daily_practice\\day3\\day3\\models\\paginatedviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64AADA1C-0098-4A86-95D7-138326920EED}|Day3.csproj|solutionrelative:day3\\models\\paginatedviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{64AADA1C-0098-4A86-95D7-138326920EED}|Day3.csproj|e:\\asp.net\\aspnet_daily_practice\\day3\\data\\dataseeds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{64AADA1C-0098-4A86-95D7-138326920EED}|Day3.csproj|solutionrelative:data\\dataseeds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64AADA1C-0098-4A86-95D7-138326920EED}|Day3.csproj|e:\\asp.net\\aspnet_daily_practice\\day3\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{64AADA1C-0098-4A86-95D7-138326920EED}|Day3.csproj|solutionrelative:views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64AADA1C-0098-4A86-95D7-138326920EED}|Day3.csproj|e:\\asp.net\\aspnet_daily_practice\\day3\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{64AADA1C-0098-4A86-95D7-138326920EED}|Day3.csproj|solutionrelative:views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64AADA1C-0098-4A86-95D7-138326920EED}|Day3.csproj|e:\\asp.net\\aspnet_daily_practice\\day3\\views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{64AADA1C-0098-4A86-95D7-138326920EED}|Day3.csproj|solutionrelative:views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64AADA1C-0098-4A86-95D7-138326920EED}|Day3.csproj|e:\\asp.net\\aspnet_daily_practice\\day3\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64AADA1C-0098-4A86-95D7-138326920EED}|Day3.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64AADA1C-0098-4A86-95D7-138326920EED}|Day3.csproj|e:\\asp.net\\aspnet_daily_practice\\day3\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{64AADA1C-0098-4A86-95D7-138326920EED}|Day3.csproj|solutionrelative:views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64AADA1C-0098-4A86-95D7-138326920EED}|Day3.csproj|e:\\asp.net\\aspnet_daily_practice\\day3\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{64AADA1C-0098-4A86-95D7-138326920EED}|Day3.csproj|solutionrelative:views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64AADA1C-0098-4A86-95D7-138326920EED}|Day3.csproj|e:\\asp.net\\aspnet_daily_practice\\day3\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{64AADA1C-0098-4A86-95D7-138326920EED}|Day3.csproj|solutionrelative:views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64AADA1C-0098-4A86-95D7-138326920EED}|Day3.csproj|e:\\asp.net\\aspnet_daily_practice\\day3\\views\\category\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{64AADA1C-0098-4A86-95D7-138326920EED}|Day3.csproj|solutionrelative:views\\category\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{64AADA1C-0098-4A86-95D7-138326920EED}|Day3.csproj|e:\\asp.net\\aspnet_daily_practice\\day3\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64AADA1C-0098-4A86-95D7-138326920EED}|Day3.csproj|solutionrelative:controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{64AADA1C-0098-4A86-95D7-138326920EED}|Day3.csproj|e:\\asp.net\\aspnet_daily_practice\\day3\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{64AADA1C-0098-4A86-95D7-138326920EED}|Day3.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{64AADA1C-0098-4A86-95D7-138326920EED}|Day3.csproj|e:\\asp.net\\aspnet_daily_practice\\day3\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64AADA1C-0098-4A86-95D7-138326920EED}|Day3.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64AADA1C-0098-4A86-95D7-138326920EED}|Day3.csproj|e:\\asp.net\\aspnet_daily_practice\\day3\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64AADA1C-0098-4A86-95D7-138326920EED}|Day3.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{64AADA1C-0098-4A86-95D7-138326920EED}|Day3.csproj|e:\\asp.net\\aspnet_daily_practice\\day3\\views\\category\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{64AADA1C-0098-4A86-95D7-138326920EED}|Day3.csproj|solutionrelative:views\\category\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64AADA1C-0098-4A86-95D7-138326920EED}|Day3.csproj|e:\\asp.net\\aspnet_daily_practice\\day3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64AADA1C-0098-4A86-95D7-138326920EED}|Day3.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{64AADA1C-0098-4A86-95D7-138326920EED}|Day3.csproj|e:\\asp.net\\aspnet_daily_practice\\day3\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{64AADA1C-0098-4A86-95D7-138326920EED}|Day3.csproj|solutionrelative:views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 306,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -90,75 +74,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DataSeeds.cs",
-              "DocumentMoniker": "E:\\Asp.net\\aspnet_daily_practice\\Day3\\Data\\DataSeeds.cs",
-              "RelativeDocumentMoniker": "Data\\DataSeeds.cs",
-              "ToolTip": "E:\\Asp.net\\aspnet_daily_practice\\Day3\\Data\\DataSeeds.cs",
-              "RelativeToolTip": "Data\\DataSeeds.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-27T03:36:22.027Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\Asp.net\\aspnet_daily_practice\\Day3\\Views\\Product\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Product\\Index.cshtml",
               "ToolTip": "E:\\Asp.net\\aspnet_daily_practice\\Day3\\Views\\Product\\Index.cshtml",
               "RelativeToolTip": "Views\\Product\\Index.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAABQAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAAYAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-10-27T03:26:24.377Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "E:\\Asp.net\\aspnet_daily_practice\\Day3\\Views\\Product\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Views\\Product\\Delete.cshtml",
-              "ToolTip": "E:\\Asp.net\\aspnet_daily_practice\\Day3\\Views\\Product\\Delete.cshtml",
-              "RelativeToolTip": "Views\\Product\\Delete.cshtml",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAABYAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-10-27T03:14:04.092Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "E:\\Asp.net\\aspnet_daily_practice\\Day3\\Views\\Product\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\Product\\Edit.cshtml",
-              "ToolTip": "E:\\Asp.net\\aspnet_daily_practice\\Day3\\Views\\Product\\Edit.cshtml",
-              "RelativeToolTip": "Views\\Product\\Edit.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-10-27T03:13:29.804Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "E:\\Asp.net\\aspnet_daily_practice\\Day3\\Views\\Product\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Product\\Create.cshtml",
-              "ToolTip": "E:\\Asp.net\\aspnet_daily_practice\\Day3\\Views\\Product\\Create.cshtml",
-              "RelativeToolTip": "Views\\Product\\Create.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABQAAABOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-10-27T03:12:24.081Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "E:\\Asp.net\\aspnet_daily_practice\\Day3\\Views\\Product\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\Product\\Details.cshtml",
-              "ToolTip": "E:\\Asp.net\\aspnet_daily_practice\\Day3\\Views\\Product\\Details.cshtml",
-              "RelativeToolTip": "Views\\Product\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-10-27T03:11:31.063Z"
+              "WhenOpened": "2026-11-10T03:08:32.348Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -168,22 +93,22 @@
               "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
               "ToolTip": "E:\\Asp.net\\aspnet_daily_practice\\Day3\\Controllers\\ProductController.cs",
               "RelativeToolTip": "Controllers\\ProductController.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAswFsAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAMwC8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-27T03:00:48.461Z"
+              "WhenOpened": "2026-11-10T03:06:54.825Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "E:\\Asp.net\\aspnet_daily_practice\\Day3\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CategoryController.cs",
-              "ToolTip": "E:\\Asp.net\\aspnet_daily_practice\\Day3\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "Controllers\\CategoryController.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAswE0AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\Asp.net\\aspnet_daily_practice\\Day3\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "E:\\Asp.net\\aspnet_daily_practice\\Day3\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-27T00:12:56.255Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-03T00:09:13.81Z"
             },
             {
               "$type": "Document",
@@ -193,33 +118,59 @@
               "RelativeDocumentMoniker": "Models\\Product.cs",
               "ToolTip": "E:\\Asp.net\\aspnet_daily_practice\\Day3\\Models\\Product.cs",
               "RelativeToolTip": "Models\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-27T02:49:45.342Z"
+              "WhenOpened": "2026-11-03T00:02:50.381Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "E:\\Asp.net\\aspnet_daily_practice\\Day3\\Views\\Category\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Views\\Category\\Delete.cshtml",
-              "ToolTip": "E:\\Asp.net\\aspnet_daily_practice\\Day3\\Views\\Category\\Delete.cshtml",
-              "RelativeToolTip": "Views\\Category\\Delete.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-10-27T02:34:46.212Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 8,
               "Title": "Details.cshtml",
               "DocumentMoniker": "E:\\Asp.net\\aspnet_daily_practice\\Day3\\Views\\Category\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Category\\Details.cshtml",
               "ToolTip": "E:\\Asp.net\\aspnet_daily_practice\\Day3\\Views\\Category\\Details.cshtml",
               "RelativeToolTip": "Views\\Category\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-10-27T02:13:31.477Z"
+              "WhenOpened": "2026-11-02T15:40:24.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DataSeeds.cs",
+              "DocumentMoniker": "E:\\Asp.net\\aspnet_daily_practice\\Day3\\Data\\DataSeeds.cs",
+              "RelativeDocumentMoniker": "Data\\DataSeeds.cs",
+              "ToolTip": "E:\\Asp.net\\aspnet_daily_practice\\Day3\\Data\\DataSeeds.cs",
+              "RelativeToolTip": "Data\\DataSeeds.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-02T15:36:42.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Category.cs",
+              "DocumentMoniker": "E:\\Asp.net\\aspnet_daily_practice\\Day3\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Models\\Category.cs",
+              "ToolTip": "E:\\Asp.net\\aspnet_daily_practice\\Day3\\Models\\Category.cs",
+              "RelativeToolTip": "Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-02T15:34:37.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PaginatedViewModel.cs",
+              "DocumentMoniker": "E:\\Asp.net\\aspnet_daily_practice\\Day3\\Day3\\Models\\PaginatedViewModel.cs",
+              "RelativeDocumentMoniker": "Day3\\Models\\PaginatedViewModel.cs",
+              "ToolTip": "E:\\Asp.net\\aspnet_daily_practice\\Day3\\Day3\\Models\\PaginatedViewModel.cs",
+              "RelativeToolTip": "Day3\\Models\\PaginatedViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-10T03:30:56.288Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -229,33 +180,22 @@
               "RelativeDocumentMoniker": "Views\\Category\\Index.cshtml",
               "ToolTip": "E:\\Asp.net\\aspnet_daily_practice\\Day3\\Views\\Category\\Index.cshtml",
               "RelativeToolTip": "Views\\Category\\Index.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACIAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-10-27T00:31:30.304Z"
+              "WhenOpened": "2026-11-02T15:30:50.331Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Category.cs",
-              "DocumentMoniker": "E:\\Asp.net\\aspnet_daily_practice\\Day3\\Models\\Category.cs",
-              "RelativeDocumentMoniker": "Models\\Category.cs",
-              "ToolTip": "E:\\Asp.net\\aspnet_daily_practice\\Day3\\Models\\Category.cs",
-              "RelativeToolTip": "Models\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "E:\\Asp.net\\aspnet_daily_practice\\Day3\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CategoryController.cs",
+              "ToolTip": "E:\\Asp.net\\aspnet_daily_practice\\Day3\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-27T00:09:58.735Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\Asp.net\\aspnet_daily_practice\\Day3\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "E:\\Asp.net\\aspnet_daily_practice\\Day3\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-27T00:09:17.874Z"
+              "WhenOpened": "2026-11-02T15:30:40.133Z",
+              "EditorCaption": ""
             }
           ]
         },

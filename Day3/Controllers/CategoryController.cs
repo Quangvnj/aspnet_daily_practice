@@ -6,6 +6,11 @@ namespace Day3.Controllers
 {
     public class CategoryController : Controller
     {
+        private readonly ILogger<CategoryController> _logger;
+        public CategoryController(ILogger<CategoryController> logger)
+        {
+            _logger = logger;
+        }
         // GET: CategoryController
         [HttpGet]
         public ActionResult Index()
@@ -17,6 +22,7 @@ namespace Day3.Controllers
         // GET: CategoryController/Details/5
         public ActionResult Details(int id)
         {
+            _logger.LogInformation("Details action called with id: {Id}", id);
             var category = DataSeeds.categories.FirstOrDefault(c => c.Id == id);
             if (category == null)
             {
@@ -36,8 +42,13 @@ namespace Day3.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create(Category category)
         {
-            DataSeeds.categories.Add(category);
-            return RedirectToAction(nameof(Index));
+            if (ModelState.IsValid)
+            {
+                category.Id = DataSeeds.categories.Count + 1;
+                DataSeeds.categories.Add(category);
+                return RedirectToAction(nameof(Index));
+            }
+            return View(category);
         }
 
         // GET: CategoryController/Edit/5
@@ -89,6 +100,6 @@ namespace Day3.Controllers
                         }
                     DataSeeds.categories.Remove(category);
                     return RedirectToAction(nameof(Index));
-        }
+            }
         }
 }

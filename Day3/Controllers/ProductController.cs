@@ -8,11 +8,61 @@ namespace Day3.Controllers
     public class ProductController : Controller
     {
         // GET: ProductController
-        public ActionResult Index()
+        //public ActionResult Index()
+        //{
+        //    //Lấy danh sách sản phẩm từ cơ sở dữ liệu (giả lập)
+        //    return View(DataSeeds.products);
+        //}
+
+        public ActionResult Index(string searchString, string sortBy = "name", string sortDirection = "asc", int pageNumber = 1, int pageSize = 5)
         {
-            //Lấy danh sách sản phẩm từ cơ sở dữ liệu (giả lập)
-            return View(DataSeeds.products);
+            var products = DataSeeds.products.AsQueryable();
+            
+            // Tìm kiếm theo tên hoặc mô tả
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                products = products.Where(p => p.Name.Contains(searchString, StringComparison.OrdinalIgnoreCase) ||
+                                                p.Description.Contains(searchString, StringComparison.OrdinalIgnoreCase));
+            }
+
+            // Sắp xếp theo ba cách
+            products = sortBy?.ToLower() switch
+            {
+                "name" => sortDirection == "desc" ? products.OrderByDescending(p => p.Name) : products.OrderBy(p => p.Name),
+                "price" => sortDirection == "desc" ? products.OrderByDescending(p => p.Price) : products.OrderBy(p => p.Price),
+                "category" => sortDirection == "desc" ? products.OrderByDescending(p => p.CategoryId) : products.OrderBy(p => p.CategoryId),
+                _ => products.OrderBy(p => p.Name)
+            };
+
+            // Phân trang
+            int totalCount = products.Count();
+            var paginatedProducts = products
+                .Skip((pageNumber - 1) * pageSize)
+                .Take(pageSize)
+                .Select(ToViewModel)
+                .ToList();
+
+
+
+
+
+            //PHẦN NÀY  E DÙNG AI AGENT ĐỂ VIẾT ĐỂ HIỂN THỊ TOÀN BỘ TRONG 1 VIEW, VỀ NHÀ EM LÀM LẠI CHO CHUẨN
+
+            var paginatedViewModel = new PaginatedViewModel<ProductViewModel>
+            {
+                Items = paginatedProducts,
+                TotalCount = totalCount,
+                PageNumber = pageNumber,
+                PageSize = pageSize,
+                SearchString = searchString,
+                SortBy = sortBy,
+                SortDirection = sortDirection
+            };
+
+            return View(paginatedViewModel);
         }
+
+     
 
         // GET: ProductController/Details/5
         public ActionResult Details(int id)
@@ -91,6 +141,19 @@ namespace Day3.Controllers
             }
             DataSeeds.products.Remove(product);
             return RedirectToAction(nameof(Index));
+        }
+        private static ProductViewModel ToViewModel(Product product)
+        {
+            var category = DataSeeds.categories.FirstOrDefault(c => c.Id == product.CategoryId);
+            return new ProductViewModel
+            {
+                Id = product.Id,
+                Name = product.Name,
+                Price = product.Price,
+                Description = product.Description,
+                CategoryName = DataSeeds.categories
+                    .FirstOrDefault(c => c.Id == product.CategoryId)?.Name ?? string.Empty
+            };
         }
     }
 }
